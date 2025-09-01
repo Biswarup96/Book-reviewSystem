@@ -1,0 +1,66 @@
+.review-form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  input,
+  select,
+  textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .btnsubmit {
+    padding: 10px;
+    background-color:var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .btnsubmit:hover {
+    background-color:var(--color-dark) ;
+    color: var(--color-black);
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+  }

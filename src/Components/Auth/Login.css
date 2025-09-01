@@ -1,0 +1,134 @@
+/* Body Styling */
+.log-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:var(--color-bg-1);
+    padding: 20px;
+  }
+  
+  /* Wrapper */
+  .wrapper {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Form Container */
+  .form-container {
+    width: 100%;
+  }
+  
+  /* Form */
+  .logform {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Heading */
+  .htwo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  /* Input Fields */
+  .input1 {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    background: #f9f9f9;
+    transition: border-color 0.3s ease, background 0.3s ease;
+  }
+  
+  .input1:focus {
+    border-color: #007bff;
+    background: #fff;
+  }
+  
+  .error-message {
+    color: #ff4d4f;
+    font-size: 13px;
+  }
+  
+  /* Forget Password */
+  .forget-pass {
+    text-align: right;
+  }
+  
+  .forget-pass a {
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .forget-pass a:hover {
+    color: #0056b3;
+  }
+  
+  /* Submit Button */
+  .btnsss {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btnsss:hover {
+    background: var(--color-dark-Ex);
+    color:black;
+  }
+  
+  /* Link Section */
+  .link .para {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .link a {
+    color: var(--color-dark);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .link a:hover {
+    color: var(--color-primary)
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .wrapper {
+      padding: 15px;
+    }
+  
+    .htwo {
+      font-size: 20px;
+    }
+  
+    .input1 {
+      font-size: 13px;
+    }
+  
+    .btnsss {
+      font-size: 13px;
+    }
+  }
+  

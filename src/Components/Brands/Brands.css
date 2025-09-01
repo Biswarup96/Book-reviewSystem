@@ -1,0 +1,17 @@
+.Brands{
+    background: var(--color-bg-2);
+    padding: 20px 0;
+
+}
+.brands-container{
+    display: grid ;
+    grid-template-columns: repeat(5,1fr) ; /*five in one frame*/
+    gap: 100px;
+    align-items: center;
+}
+
+@media (max-width:1024px){
+    .brands-container{
+        gap: 20px;
+    }
+}

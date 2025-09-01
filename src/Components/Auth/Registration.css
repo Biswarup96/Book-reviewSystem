@@ -1,0 +1,128 @@
+/* Registration Form Styles */
+.reg-bodys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--color-bg-1);
+    padding: 20px;
+  }
+  
+  .wrappers {
+    max-width: 400px;
+    width: 100%;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-containers {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .htwos {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .form-groups {
+    margin-bottom: 15px;
+  }
+  
+  .input-icons input,
+  .input-icons select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .input-icons input:focus,
+  .input-icons select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+ 
+  
+  button:hover {
+    background-color:var(--color-dark);
+  }
+  
+  .links {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .links a {
+    color: var(--color-dark);
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .btn-submit {
+    
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  /* Registration Button Styles */
+.regbutton {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    background-color: var(--color-dark);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .regbutton:hover {
+    background-color: var(--color-dark-Ex);
+    transform: scale(1.02);
+  }
+  
+  .regbutton:active {
+    background-color: #003d80;
+    transform: scale(0.98);
+  }
+  
+  .regbutton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  

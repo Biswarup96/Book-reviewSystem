@@ -1,0 +1,28 @@
+.footer-copyright{
+    padding: 40px 0;
+    margin-top: 56px;
+    border-top: 1px solid var(--color-dark);
+
+}
+.copyright-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px ;
+    text-align: center;
+}
+.footer-social{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.footer-social a{
+    color: var(--color-dark);
+    transition: var(--transition);
+    font-size: 16px;
+    gap: 30px;
+}
+.footer-social a:hover{
+    color: var(--color-primary);
+}

@@ -1,0 +1,33 @@
+footer{
+    padding-top:115px;
+    background: var(--color-bg-1);
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.footer-container h4{
+    margin-bottom: 22px;
+}
+.param-links li{
+    margin-top: 10px;
+}
+.param-links li a{
+    color: var(--color-dark);
+    text-decoration: uppercase;
+    font-size: 15px;
+    transition: var(--transition);
+}
+.param-links li a:hover{
+    color: var(--color-primary);
+}
+
+
+/* max width 1024 */
+
+@media (max-width:1024px){
+    .footer-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

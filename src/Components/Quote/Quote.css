@@ -1,0 +1,35 @@
+.quote{
+    background: var(--color-bg-2) ;
+
+}
+.qoute-title{
+   text-align: center;
+}
+.quoteContainer article{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+}
+.quoteContainer article p{
+    margin-top: 6px;
+    font-size: 24px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+
+
+}
+
+/* responsive */
+@media (max-width:1024px){
+    .quoteContainer article p{
+        width: 80%;
+        font-size: 22px;
+    }
+    .quoteContainer h5{
+        font-size: 18px !important;
+    }
+}
