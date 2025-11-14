@@ -1,4 +1,4 @@
-export const baseurl=window.location.origin+"/";
+export const baseurl="http://localhost:2000/";
 
 export const admin_end="admin";
 export const stu_end="stuData";
