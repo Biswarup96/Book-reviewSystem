@@ -1,0 +1,12 @@
+services:
+  books:
+    build: .
+    container_name: books
+    ports:
+      - "3004:3000"
+      - "2000:2000"
+    volumes:
+      - my_data:/app/Database
+
+volumes:
+  my_data:
