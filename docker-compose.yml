@@ -1,6 +1,6 @@
 services:
   books:
-    build: .
+    dockerfile: suvo32/bookreview:latest
     container_name: books
     ports:
       - "3004:3000"
