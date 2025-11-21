@@ -1,7 +1,7 @@
 services:
   books:
-    dockerfile: suvo32/bookreview:latest
     container_name: books
+    image: suvo32/bookreview:latest
     ports:
       - "3004:3000"
       - "2000:2000"
