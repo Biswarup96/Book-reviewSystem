@@ -1,5 +1,6 @@
 pipeline{
-    agent any
+    // agent any
+    agent {label : first-worker-node}
     stages{
         stage('code'){
             steps{
