@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-container">
        
         <div className="about-text">
-          <h1 className="about-title">About Us !!!</h1>
+          <h1 className="about-title">About our company !!!</h1>
           <p className="about-description">
             Welcome to our Book Review platform, your go-to destination for
             discovering and sharing insights on the best books across genres.
