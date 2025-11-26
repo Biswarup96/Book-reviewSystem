@@ -41,7 +41,7 @@ const AllBooks = () => {
                 <img src={img} alt={`${name} `} />
               </div>
               <div className="popularbook-infos">
-                <h4>{name}</h4>
+                <h4> Book :{name}</h4>
                 <p className="writer-infos">{writer}</p>
                 <p className="categorys">{category}</p>
                 <p className="descs">{desc}</p>
