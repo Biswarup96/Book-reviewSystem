@@ -1,7 +1,7 @@
 services:
   books:
     container_name: books
-    image: suvo32/bookreview:latest
+    image: suvo32/bkkp:latest
     ports:
       - "3004:3000"
       - "2000:2000"
